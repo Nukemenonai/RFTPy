@@ -28,12 +28,12 @@ while loop:
     print("\nWhat relation do {} and {} have?".format(stat1,stat2))
     answer = input("(write 1, 2, or 3) \n1: equal \n2: different \n3: quit\n")
 
-    if (answer == 1 and comp == relations[0])or(answer == 2 and comp == relations[1]):
+    if (answer == "1" and comp == relations[0])or(answer == "2" and comp == relations[1]):
         score += 1
         print("Correct")
         print("score: {}".format(score))
         print("\n-----------------------------\n")
-    elif (answer == 2 and comp == relations[0])or(answer == 1 and comp == relations[1]):
+    elif (answer == "2" and comp == relations[0])or(answer == "1" and comp == relations[1]):
         score -= 1
         print("wrong")
         print("score: {}".format(score))
