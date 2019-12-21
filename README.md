@@ -4,9 +4,14 @@ It works training your basic relation abilities in order to improve you learning
 Relational frame training is based on Relational frame theory.
 
 In order to use, download and execute using:
->>>python RFT.py
+python3 RFT.py
 
-Bugs: program works only in python 2
+or
+
+python RFT.py
+
+Bugs: given the changes on input() functions between versions 2 and 3 of python, 
+version 2 requires that the answer be written inside double quotes to be a valid answer
 
 Made with python 2.7.6 by Nukemenonai
 Licensed under MIT License.
